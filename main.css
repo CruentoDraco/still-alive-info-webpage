@@ -32,6 +32,34 @@
     background-image: urL(images/bg/7.png);
 }
 
+.end{
+    margin: 0;
+    height: 5px;
+}
+
+.end-1{
+    background-color: #12c25e;
+}
+
+.end-2{
+    background-color: #fff500;
+}
+
+.end-3{
+    background-color: #12c25e;
+}
+
+.end-4{
+    background-color: #5e17eb;
+}
+
+.end-5{
+    background-color: #545454;
+}
+
+.end-6{
+    background-color: #ff1616;
+}
 
 .footer{
     background-color:#888989;
