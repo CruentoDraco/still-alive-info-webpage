@@ -90,3 +90,42 @@ nav .navbar-nav .active a {
 .brand{
     border-radius: 50%;
 }
+.card{
+    background-color: #888989;
+}
+
+.news-card{
+    border: 2px solid #12c25e;
+    box-shadow: 5px 5px 20px 0px #ff1616;
+}
+
+.omega-card{
+    border: 2px solid white;
+    box-shadow: 5px 5px 20px 0px #fff500;
+}
+
+.one-year-later-card{
+    border: 2px solid #12c25e;
+    box-shadow: 5px 5px 20px 0px #ff1616;
+}
+
+.fraction1-card{
+    border: 2px solid #ff1616;
+    box-shadow: 5px 5px 20px 0px #5e17eb;
+}
+
+.fraction2-card{
+    border: 2px solid #545454;
+    box-shadow: 5px 5px 20px 0px white;
+}
+
+.fraction3-card{
+    border: 2px solid #ff1616;
+    box-shadow: 5px 5px 20px 0px #3b3b3b;
+}
+
+.own-fraction-card{
+    border: 2px solid #ff1616;
+    box-shadow: 5px 5px 20px 0px #12c25e;
+}
+
