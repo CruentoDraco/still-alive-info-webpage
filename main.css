@@ -120,8 +120,8 @@ nav .navbar-nav .active a {
 }
 
 .fraction3-card{
-    border: 2px solid #ff1616;
-    box-shadow: 5px 5px 20px 0px #3b3b3b;
+    border: 2px solid #3b3b3b;
+    box-shadow: 5px 5px 20px 0px #ff1616;
 }
 
 .own-fraction-card{
