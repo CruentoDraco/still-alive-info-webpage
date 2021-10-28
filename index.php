@@ -44,6 +44,29 @@
 ?>
 </head>
 <body class="body">
+    <!-- Navbar -->
+    <nav class="navbar navbar-light bg-light navbar-expand-md">
+        <a class="navbar-brand mt-2 mt-lg-0" href="#">
+            <img
+                class="brand"
+                src="images/logo.svg"
+                height="60"
+                alt=""
+                loading="lazy"
+            />
+          </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbar">
+            <ul class="navbar-nav">
+                <li id="home" class="nav-item active"><a href="?site=home" class="nav-link btn">Home</a></li>
+                <li id="about" class="nav-item"><a href="?site=about" class="nav-link btn">About</a></li>
+                <li id="branding" class="nav-item"><a href="?site=branding" class="nav-link btn">Branding</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar -->
     <footer class="text-center text-white" style="background-color: #959696;">
         <!-- Grid container -->
         <div class="container pt-4">
