@@ -20,36 +20,49 @@
 </head>
 <body class="body">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md" style="background-color: #888989">
-        <a class="navbar-brand mt-2 mt-lg-0" href="#">
-            <img
-                class="brand"
-                src="images/logo.png"
-                height="60"
-                alt=""
-                loading="lazy"
-                style="border-radius: 50%;"
+    <nav class="navbar navbar-expand-lg bg-light navbar-light ">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#">
+                <img
+                    class="brand"
+                    src="images/logo.png"
+                    height="60"
+                    alt=""
+                    loading="lazy"
             />
-          </a>
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse" id="navbar">
-            <ul class="navbar-nav">
-                <li id="Features" class="nav-item"><a href="/start" class="nav-link btn">Features</a></li>
-                <li id="news" class="nav-item"><a href="/news" class="nav-link btn">News</a></li>
-                <li id="assets" class="nav-item"><a href="/assets" class="nav-link btn">Assets</a></li>
-            </ul>
-            <!-- Icons -->
-            <ul class="navbar-nav d-flex flex-row me-1">
-                <li class="nav-item me-3 me-lg-0">
-                    <a class="nav-link" href="mailto:info@stillalivethegame.de"><i class="fas fa-envelope"></i></a>
-                </li>
-                <li class="nav-item me-3 me-lg-0">
-                    <a class="nav-link" href="https://instagram.com/stillalivethegame"><i class="fab fa-instagram"></i></a>
-                </li>
-            </ul>
+            </a>
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!-- Link -->
+                    <li class="nav-item">
+                        <a class="nav-link btn" href="/features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn" href="/news">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn" href="/assets">Assets</a>
+                    </li>                        
+                </ul>
+                <!-- Icons -->
+                <ul class="navbar-nav d-flex flex-row me-1">
+                    <li class="nav-item me-3 me-lg-0">
+                        <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                    <li class="nav-item me-3 me-lg-0">
+                        <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
         </div>
+        <!-- Container wrapper -->
     </nav>
     <!-- Navbar -->
     <div id="view">
@@ -78,30 +91,17 @@
         	}
         ?>
     </div>
-    <footer class="text-center text-white" style="background-color: #959696;">
-        <!-- Grid container -->
-        <div class="container pt-4">
-            <!-- Section: Social media -->
-            <section class="mb-4">
-                <!-- Instagram -->
-                <a
-                    class="btn btn-link btn-floating btn-lg text-dark m-1"
-                    href="https://instagram.com/stillalivethegame"
-                    role="button"
-                    data-mdb-ripple-color="dark"
-                >
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </section>
-            <!-- Section: Social media -->
-        </div>
-        <!-- Grid container -->
+    <footer class="text-center text-white">
         <!-- Copyright -->
-        <div class="text-center text-dark p-3" style="background-color: #888989">
+        <div class="text-center text-dark p-3 footer" >
             © 2021 Copyright:
             <a class="text-dark" href="https://instagram.com/stillalivethegame">StillAliveTheGame.de</a>
         </div>
         <!-- Copyright -->
+        <div class="text-center text-dark p-3" style="background-color: #888989;">
+            <a class="text-dark" href="/datenschutz">Datenschutz</a>
+            <a class="text-dark" href="/impressum">Impressum</a>
+        </div>
     </footer>
 </body>
 </html>

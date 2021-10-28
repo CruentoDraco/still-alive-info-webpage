@@ -34,7 +34,7 @@
 
 
 .footer{
-    background-color:#959696;
+    background-color:#888989;
     border-top: 2px solid #ff1616;
 }
 
@@ -54,7 +54,11 @@ nav .navbar-nav .active a {
 }
 
 .navbar{
-    background-color: #959696;
+    background-color: #888989;
     border-bottom: #12c25e 2px solid;
     padding: 0 5px;
+}
+
+.brand{
+    border-radius: 50%;
 }
