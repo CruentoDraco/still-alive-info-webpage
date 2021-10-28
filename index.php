@@ -57,7 +57,7 @@
                         <a class="nav-link" href="mailto:info@stillalivethegame.de"><i class="fas fa-envelope"></i></a>
                     </li>
                     <li class="nav-item me-3 me-lg-0">
-                        <a class="nav-link" href="https://instagram.com/stillalivethegame"><i class="fab fa-instagram"></i></a>
+                        <a class="nav-link" href="https://instagram.com/stillalivethegame" target="_blank"><i class="fab fa-instagram"></i></a>
                     </li>
                 </ul>
             </div>
