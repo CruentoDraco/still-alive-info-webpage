@@ -20,7 +20,7 @@
 </head>
 <body class="body">
     <!-- Navbar -->
-    <nav class="navbar navbar-light bg-light navbar-expand-md">
+    <nav class="navbar navbar-expand-md" style="background-color: #888989">
         <a class="navbar-brand mt-2 mt-lg-0" href="#">
             <img
                 class="brand"
@@ -36,9 +36,18 @@
         </button>
         <div class="navbar-collapse collapse" id="navbar">
             <ul class="navbar-nav">
-                <li id="home" class="nav-item active"><a href="?site=home" class="nav-link btn">Home</a></li>
-                <li id="about" class="nav-item"><a href="?site=about" class="nav-link btn">About</a></li>
-                <li id="branding" class="nav-item"><a href="?site=branding" class="nav-link btn">Branding</a></li>
+                <li id="Features" class="nav-item"><a href="/start" class="nav-link btn">Features</a></li>
+                <li id="news" class="nav-item"><a href="/news" class="nav-link btn">News</a></li>
+                <li id="assets" class="nav-item"><a href="/assets" class="nav-link btn">Assets</a></li>
+            </ul>
+            <!-- Icons -->
+            <ul class="navbar-nav d-flex flex-row me-1">
+                <li class="nav-item me-3 me-lg-0">
+                    <a class="nav-link" href="mailto:info@stillalivethegame.de"><i class="fas fa-envelope"></i></a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                    <a class="nav-link" href="https://instagram.com/stillalivethegame"><i class="fab fa-instagram"></i></a>
+                </li>
             </ul>
         </div>
     </nav>

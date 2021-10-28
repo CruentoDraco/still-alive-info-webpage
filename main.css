@@ -31,3 +31,30 @@
 .bg-7{
     background-image: urL(images/bg/7.png);
 }
+
+
+.footer{
+    background-color:#959696;
+    border-top: 2px solid #ff1616;
+}
+
+nav .navbar-nav li a{
+    color: #12c25e !important;
+}
+
+nav .navbar-nav .active a {
+    background-color: #12c25e !important;
+    color: #ff1616 !important;
+}
+
+.nav-item a:hover {
+    background-color: #12c25e !important;
+    color: #ff1616 !important;
+    cursor: pointer;
+}
+
+.navbar{
+    background-color: #959696;
+    border-bottom: #12c25e 2px solid;
+    padding: 0 5px;
+}
