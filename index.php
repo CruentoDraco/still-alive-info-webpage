@@ -20,7 +20,7 @@
 </head>
 <body class="body">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-light navbar-light ">
+    <nav class="navbar navbar-expand-lg">
         <!-- Container wrapper -->
         <div class="container-fluid">
             <!-- Navbar brand -->
@@ -96,15 +96,11 @@
         <div class="text-center text-dark p-3 footer" >
             © 2021 Copyright:
             <a class="text-dark" href="https://instagram.com/stillalivethegame">StillAliveTheGame.de</a>
-            <br><br>
+            <br>
             <a class="text-dark" href="/datenschutz">Datenschutz</a>
             <a class="text-dark" href="/impressum">Impressum</a>
         </div>
         <!-- Copyright -->
-        <div class="text-center text-dark p-3" style="background-color: #888989;">
-            <a class="text-dark" href="/datenschutz">Datenschutz</a>
-            <a class="text-dark" href="/impressum">Impressum</a>
-        </div>
     </footer>
 </body>
 </html>
