@@ -15,33 +15,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
   <script type="text/javascript" src="scripts/script.js"></script>
   	<title>Still Alive The Game</title>
-	<link rel="icon" href="images/logo.svg">
+	<link rel="icon" href="images/logo.png">
 	<link id="stylesheet" rel="stylesheet" href="main.css">
-<?php
-	$request = $_SERVER['REQUEST_URI'];
-	switch ($request) {
-		case '/' :
-			require __DIR__ . '/includes/start.html';
-			break;
-		case '' :
-			require __DIR__ . '/includes/start.html';
-			break;
-		case '/.' :
-			require __DIR__ . '/includes/start.html';
-			break;
-		case '/..' :
-			require __DIR__ . '/includes/start.html';
-			break;
-		case '/...' :
-			require __DIR__ . '/includes/start.html';
-			break;
-		default:
-			/*http_response_code(404);
-			require __DIR__ . '/views/404.php';
-			break;*/
-	}
-
-?>
 </head>
 <body class="body">
     <!-- Navbar -->
@@ -49,10 +24,11 @@
         <a class="navbar-brand mt-2 mt-lg-0" href="#">
             <img
                 class="brand"
-                src="images/logo.svg"
+                src="images/logo.png"
                 height="60"
                 alt=""
                 loading="lazy"
+                style="border-radius: 50%;"
             />
           </a>
         <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
@@ -67,6 +43,32 @@
         </div>
     </nav>
     <!-- Navbar -->
+    <div id="view">
+        <?php
+	        $request = $_SERVER['REQUEST_URI'];
+	        switch ($request) {
+		        case '/' :
+    	    		require __DIR__ . '/includes/start.html';
+    	    		break;
+	        	case '' :
+        			require __DIR__ . '/includes/start.html';
+		        	break;
+        		case '/.' :
+		        	require __DIR__ . '/includes/start.html';
+        			break;
+        		case '/..' :
+		        	require __DIR__ . '/includes/start.html';
+        			break;
+		        case '/...' :
+        			require __DIR__ . '/includes/start.html';
+		        	break;
+        		default:
+		        	/*http_response_code(404);
+        			require __DIR__ . '/views/404.php';*/
+		        	break;
+        	}
+        ?>
+    </div>
     <footer class="text-center text-white" style="background-color: #959696;">
         <!-- Grid container -->
         <div class="container pt-4">

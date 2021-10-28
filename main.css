@@ -1,5 +1,33 @@
-.section-1{
-    min-height: 540px;
+.section{
+    min-height: 1080px;
     min-width: 100%;
+    background-repeat: round;
+}
+
+.bg-1{
     background-image: urL(images/bg/1.png);
+}
+
+.bg-2{
+    background-image: urL(images/bg/2.png);
+}
+
+.bg-3{
+    background-image: urL(images/bg/3.png);
+}
+
+.bg-4{
+    background-image: urL(images/bg/4.png);
+}
+
+.bg-5{
+    background-image: urL(images/bg/5.png);
+}
+
+.bg-6{
+    background-image: urL(images/bg/6.png);
+}
+
+.bg-7{
+    background-image: urL(images/bg/7.png);
 }
