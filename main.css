@@ -129,3 +129,8 @@ nav .navbar-nav .active a {
     box-shadow: 5px 5px 20px 0px #12c25e;
 }
 
+.col-md-12,
+.col-md-1,
+.col-md-5{
+    padding: 0;
+}
