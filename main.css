@@ -1,7 +1,7 @@
 .section{
     min-height: 1080px;
     width: 100%;
-    /*background-repeat: round;*/
+    background-repeat: round;
 }
 
 .bg-1{
