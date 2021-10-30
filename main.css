@@ -32,6 +32,26 @@
     background-image: urL(images/bg/7.png);
 }
 
+.bg-features{
+    background-image: urL(images/bg/features.png);
+}
+
+.bg-news{
+    background-image: urL(images/bg/news.png);
+}
+
+.bg-assets{
+    background-image: urL(images/bg/assets.png);
+}
+
+.bg-datenschutz{
+    background-image: urL(images/bg/datenschutz.png);
+}
+
+.bg-impressum{
+    background-image: urL(images/bg/impressum.png);
+}
+
 .line{
     margin: 0;
     height: 5px;

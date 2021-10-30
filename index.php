@@ -75,18 +75,24 @@
 	        	case '' :
         			require __DIR__ . '/includes/start.html';
 		        	break;
-        		case '/.' :
-		        	require __DIR__ . '/includes/start.html';
+        		case '/features' :
+		        	require __DIR__ . '/includes/features.html';
         			break;
-        		case '/..' :
-		        	require __DIR__ . '/includes/start.html';
+        		case '/news' :
+		        	require __DIR__ . '/includes/news.html';
         			break;
-		        case '/...' :
-        			require __DIR__ . '/includes/start.html';
+		        case '/assets' :
+        			require __DIR__ . '/includes/assets.html';
 		        	break;
+                case '/datenschutz' :
+                    require __DIR__ . '/includes/datenschutz.html';
+                    break;
+                case '/impressum' :
+                    require __DIR__ . '/includes/impressum.html';
+                    break;
         		default:
-		        	/*http_response_code(404);
-        			require __DIR__ . '/views/404.php';*/
+		        	http_response_code(404);
+        			require __DIR__ . '/views/404.php';
 		        	break;
         	}
         ?>
@@ -95,7 +101,7 @@
         <!-- Copyright -->
         <div class="text-center text-dark p-3 footer" >
             © 2021 Copyright:
-            <a class="text-dark" href="https://instagram.com/stillalivethegame">StillAliveTheGame.de</a>
+            <a class="text-dark" href="https://instagram.com/stillalivethegame">StillAliveTheGame</a>
             <br>
             <a class="text-dark" href="/datenschutz">Datenschutz</a>
             <a class="text-dark" href="/impressum">Impressum</a>
