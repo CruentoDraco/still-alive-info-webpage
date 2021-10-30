@@ -132,3 +132,7 @@ nav .navbar-nav .active a {
 .min-h-100{
     min-height: 100px;
 }
+
+.min-h-250{
+    min-height: 250px;
+}
