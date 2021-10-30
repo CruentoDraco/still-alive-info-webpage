@@ -128,3 +128,7 @@ nav .navbar-nav .active a {
     border: 2px solid #ff1616;
     box-shadow: 5px 5px 20px 0px #12c25e;
 }
+
+.col-md-12{
+    min-height: 100px;
+}
