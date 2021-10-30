@@ -43,9 +43,9 @@
                     <li class="nav-item">
                         <a class="nav-link btn" href="/features">Features</a>
                     </li>
-                    <li class="nav-item">
+                    <!--<li class="nav-item">
                         <a class="nav-link btn" href="/news">News</a>
-                    </li>
+                    </li>-->
                     <li class="nav-item">
                         <a class="nav-link btn" href="/assets">Assets</a>
                     </li>                        
@@ -56,7 +56,10 @@
                         <a class="nav-link" href="mailto:info@stillalivethegame.de"><i class="fas fa-envelope"></i></a>
                     </li>
                     <li class="nav-item me-3 me-lg-0">
-                        <a class="nav-link" href="https://instagram.com/stillalivethegame" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="nav-link" href="https://instagram.com/stillalivethegame" target="_blank" title="StillAliveTheGame"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="nav-item me-3 me-lg-0">
+                        <a class="nav-link" href="https://instagram.com/cruentodraco" target="_blank" title="CruentoDraco"><i class="fab fa-instagram"></i></a>
                     </li>
                 </ul>
             </div>
