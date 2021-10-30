@@ -1,6 +1,6 @@
 .section{
     min-height: 1080px;
-    min-width: 100%;
+    max-width: 100%;
     background-repeat: round;
 }
 
@@ -127,10 +127,4 @@ nav .navbar-nav .active a {
 .own-fraction-card{
     border: 2px solid #ff1616;
     box-shadow: 5px 5px 20px 0px #12c25e;
-}
-
-.col-md-12,
-.col-md-1,
-.col-md-5{
-    padding: 0 !important;
 }
