@@ -47,7 +47,7 @@
                         <a class="nav-link btn" href="/news">News</a>
                     </li>-->
                     <li class="nav-item">
-                        <a class="nav-link btn" href="/assets">Assets</a>
+                        <a class="nav-link btn" href="assets.zip">Assets</a>
                     </li>                        
                 </ul>
                 <!-- Icons -->
