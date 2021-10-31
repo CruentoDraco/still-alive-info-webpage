@@ -43,13 +43,13 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <!-- Link -->
                     <li class="nav-item">
-                        <a class="nav-link btn" href="/features">Features</a>
+                        <a class="nav-link" href="/features">Features</a>
                     </li>
                     <!--<li class="nav-item">
                         <a class="nav-link btn" href="/news">News</a>
                     </li>-->
                     <li class="nav-item">
-                        <a class="nav-link btn" href="assets.zip">Assets</a>
+                        <a class="nav-link" href="assets.zip">Assets</a>
                     </li>                        
                 </ul>
                 <!-- Icons -->
