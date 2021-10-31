@@ -180,6 +180,11 @@ nav .navbar-nav .active a {
     background-color: #888989;
 }
 
+.features-card{
+    border: 2px solid #12c25e;
+    box-shadow: 5px 5px 20px 0px #ff1616;
+}
+
 .datenschutz-card{
     border: 2px solid #12c25e;
     box-shadow: 5px 5px 20px 0px #ff1616;
