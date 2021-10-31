@@ -52,6 +52,12 @@
     background-image: urL(images/bg/desktop/12.png);
 }
 
+@media (max-width: 1080px){
+    .own-fraction-card{
+        margin-bottom: 15px;
+    }
+}
+
 @media (max-width: 991px) {
     .section-1-img-emblem{
         display:none;
