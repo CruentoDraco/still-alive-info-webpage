@@ -53,6 +53,9 @@
 }
 
 @media (max-width: 991px) {
+    .section-1-img-emblem{
+        display:none;
+    }
     .bg-1{
         background-image: urL(images/bg/mobile/1.png);
     }
@@ -99,6 +102,10 @@
     
     .bg-impressum{
         background-image: urL(images/bg/mobile/12.png);
+    }
+
+    .own-fraction-card{
+        margin-bottom: 15px;
     }
 }
 
