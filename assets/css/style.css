@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
-  background: linear-gradient(45deg, #ff0000, #12c25e);
+  background: linear-gradient(45deg, #ff0000, #45c212);
   color: #212121;
   border-radius: 4px 4px 0 0;
   right: 15px;
@@ -60,12 +60,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
 }
 .back-to-top:focus {
-  background: linear-gradient(45deg, #ff0000, #12c25e);
+  background: linear-gradient(45deg, #ff0000, #45c212);
   color: #212121                                        ;
   outline: none;
 }
 .back-to-top:hover {
-  background: #12c25e;
+  background: #45c212;
   color: #212121;
 }
 .back-to-top.active {
@@ -80,13 +80,13 @@ h1, h2, h3, h4, h5, h6 {
   height: 90px;
   transition: all 0.5s;
   z-index: 997;
-  background: linear-gradient(45deg, #ff0000, #12c25e);
+  background: linear-gradient(45deg, #ff0000, #45c212);
 }
 #header.header-transparent {
   background: transparent;
 }
 #header.header-scrolled {
-  background: linear-gradient(45deg, #ff0000, #12c25e);
+  background: linear-gradient(45deg, #ff0000, #45c212);
   height: 70px;
   transition: all 0.5s;
 }
@@ -385,56 +385,29 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #12c25e;
+  border: 2px solid #45c212;
   color: #fff;
 }
 #hero .btn-get-text-sectioned:hover {
   color: #ff0000;
-  background: #12c25e;
+  background: #45c212;
 }
-/*#hero .product-screens {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  overflow: hidden;
-  text-align: center;
-  width: 100%;
-  height: 50%;
+
+.btn-get-started{
+  border: 2px solid #45c212;
+  border-radius: 10px;
+  padding: 10px;
+  transition: .5s;
 }
-#hero .product-screens img {
-  box-shadow: 0px -2px 19px 4px rgba(0, 0, 0, 0.29);
+
+.btn-get-started:hover{
+  border-color:#ff0000;
+  background-color: #45c212;
+  box-shadow: 0 0 10px 3px #45c212; 
+  border-radius: 10px;
+  padding: 10px;
+  transition: .5s;
 }
-#hero .product-screens .product-screen-1 {
-  position: absolute;
-  z-index: 30;
-  left: calc(50% + 54px);
-  bottom: 0;
-  top: 30px;
-}
-#hero .product-screens .product-screen-2 {
-  position: absolute;
-  z-index: 20;
-  left: calc(50% - 154px);
-  bottom: 0;
-  top: 90px;
-}
-#hero .product-screens .product-screen-3 {
-  position: absolute;
-  z-index: 10;
-  left: calc(50% - 374px);
-  bottom: 0;
-  top: 150px;
-}
-@media (max-width: 767px) {
-  #hero .product-screens .product-screen-1 {
-    position: static;
-    padding-top: 30px;
-  }
-  #hero .product-screens .product-screen-2, #hero .product-screens .product-screen-3 {
-    display: none;
-  }
-}*/
 
 /*--------------------------------------------------------------
 # Sections
@@ -447,7 +420,7 @@ section {
 --------------------------------*/
 .section-header .section-title {
   font-size: 32px;
-  color: #12c25e;
+  color: #45c212;
   text-align: center;
   font-weight: 400;
 }
@@ -462,7 +435,7 @@ section {
   width: 60px;
   height: 3px;
   background: #ff0000;
-  background: linear-gradient(25deg, #ff0000 0%, #12c25e 100%);
+  background: linear-gradient(25deg, #ff0000 0%, #45c212 100%);
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -546,6 +519,7 @@ section {
 .text-section .text-section-img img {
   max-width: 60%;
   margin-left: 200px;
+  height: inherit;
 }
 @media (max-width: 768px) {
   .text-section .text-section-img {
@@ -554,6 +528,7 @@ section {
   .text-section .text-section-img img {
     margin-left: 70px;
     padding-bottom: 30px;
+    height: inherit;
   }
 }
 .text-section .content .h2 {
@@ -589,57 +564,57 @@ section {
 
 /*  More Infos Section
 --------------------------------*/
-#more-infos {
+#infos {
   background: linear-gradient(180deg, #303030, black);
   padding: 60px 0 0 0;
   overflow: hidden;
 }
-#more-infos .more-infos-img {
+#infos .more-infos-img {
   text-align: center;
   padding-top: 20px;
 }
 @media (min-width: 769px) {
-  #more-infos .more-infos-img {
+  #infos .more-infos-img {
     padding-top: 120px;
     margin-top: -200px;
   }
 }
-#more-infos .more-infos-img img {
+#infos .more-infos-img img {
   max-width: 100%;
 }
-#more-infos .box {
+#infos .box {
   margin-bottom: 15px;
   text-align: center;
 }
-#more-infos .icon {
+#infos .icon {
   margin-bottom: 10px;
 }
-#more-infos .icon i {
+#infos .icon i {
   color: #666666;
   font-size: 40px;
   transition: 0.5s;
 }
-#more-infos .icon i:before {
+#infos .icon i:before {
   background: #1dc8cd;
   background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-#more-infos .title {
+#infos .title {
   font-weight: 300;
   margin-bottom: 15px;
   font-size: 22px;
 }
-#more-infos .title a {
+#infos .title a {
   color: #111;
 }
-#more-infos .description {
+#infos .description {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 10px;
 }
-#more-infos .section-description {
+#infos .section-description {
   padding-bottom: 10px;
 }
 
@@ -922,7 +897,7 @@ section {
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #12c25e;
+  color: #45c212;
 }
 #contact .contact-text-section p {
   font-size: 14px;
@@ -931,11 +906,11 @@ section {
   color: white;
 }
 #contact .info {
-  color: #12c25e;
+  color: #45c212;
 }
 #contact .info i {
   font-size: 32px;
-  color: #12c25e;
+  color: #45c212;
   float: left;
   line-height: 0;
 }
